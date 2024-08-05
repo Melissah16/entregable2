@@ -1,0 +1,59 @@
+*{
+    font-family: "Dosis", sans-serif;
+}
+
+
+
+body{
+    background-image: url(./Imagenes/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.mybutton{
+    background: none;
+    border: none;
+    background: rgb(236, 233, 192);
+    color: #987D9A;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.mybutton:hover{
+    background-color: #987D9A;
+    color: rgb(236, 233, 192);
+}
+
+
+.myTittle{
+    font-size: 5rem;
+    color: rgb(82, 76, 122);
+    margin-bottom: 50px;
+    font-family: "Pacifico", cursive;
+
+}
+
+p{
+    font-size: 1rem;
+    color: rgb(82, 76, 122);
+}
+
+.myTittleCard{
+    font-size: 1.5rem;
+    color: #987D9A;
+    font-family: "Pacifico", cursive;
+    
+}
+
+@media(max-width:876px){
+    .myTittle{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+}
+
+
